@@ -13,12 +13,3 @@ const server = http.createServer((req, res) => {
 server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 }); 
-
-package-lock.json
-
-{
-  "name": "lecture14",
-  "lockfileVersion": 3,
-  "requires": true,
-  "packages": {}
-}
